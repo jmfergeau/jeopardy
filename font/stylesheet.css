@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'ITC Korinna';
+    src: url('Korinna-Regular.eot');
+    src: url('Korinna-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Korinna-Regular.woff2') format('woff2'),
+        url('Korinna-Regular.woff') format('woff'),
+        url('Korinna-Regular.ttf') format('truetype'),
+        url('Korinna-Regular.svg#Korinna-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

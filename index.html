@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Jeopardy screen generator</title>
+	<meta charset="utf-8">
+	<link href="style.css" rel="stylesheet" />
+	<script src="script.js"></script>
+</head>
+<body>
+
+<header>
+	<h1>Jeopardy screen generator</h1>
+	<p>Put text in the box at the left and click "Generate" to see it appear in left!</p>
+</header>
+
+<form>
+	<label>Text</label><br>
+	<textarea id="msg" name="the_answer"></textarea><br>
+
+	<a href="#" onclick="putTheText();">Generate</a>
+</form>
+
+<div class="generated">
+	<span id="toGenerate"></span>
+</div>
+
+<footer>
+	<p>Made by <a href="https://gitlab.com/maxlefou">Max le Fou</a>, released under GPL3</p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+@import url("font/stylesheet.css");
+
+header {
+	text-align: center;
+}
+
+form {
+	float: left;
+	margin:30px;
+}
+
+footer {
+	position: absolute;
+	bottom: 0;
+	left: 10px;
+}
+
+.generated {
+	font-family: ITC Korinna, serif;
+	font-size: 3em;
+	font-weight: bold;
+	position: relative;
+	background: #1a1b8a;
+	color: white;
+	text-shadow: 2px 2px 8px black;
+	text-align: center;
+	float: right;
+	margin: 30px;
+	padding: 30px;
+	width: 640px;
+	height: 480px;
+}
+
+.generated span {
+	position:absolute;
+	text-align: center;
+	top: 50%;
+	left: 50%;
+	margin-top: -80px; /* that's buillshit */
+	margin-left: -320px;
+}
