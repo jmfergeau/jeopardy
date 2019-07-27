@@ -6,6 +6,8 @@ function putTheText() {
   var textToGet = document.getElementById('msg');
   var textToPut = textToGet.value;
 
+  textToPut = textToPut.toUpperCase();
+
   var theSpan = document.getElementById('toGenerate');
 
   return theSpan.innerHTML = textToPut;
