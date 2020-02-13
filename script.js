@@ -1,3 +1,19 @@
+$(document).ready(function () {
+
+  $('#gen').click(function() {
+      var textToPut = $('#msg').val();
+      $('#toGenerate').text(textToPut.toUpperCase());
+  });
+
+
+var element = $(".generated")[0];
+
+html2canvas(element).then(function(canvas) {
+    $('#resultsDiv').append(canvas);
+});
+
+});
+/*
 if (theSpan.innerHTML == "") {
   theSpan.innerHTML = "This generator is used to create Jeopardy answers like this.";
 };
@@ -12,3 +28,4 @@ function putTheText() {
 
   return theSpan.innerHTML = textToPut;
 }
+*/
