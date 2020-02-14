@@ -1,8 +1,7 @@
 $(document).ready(function () {
 
   $('#gen').click(function() {
-      var textToPut = $('#msg').val();
-      $('#toGenerate').text(textToPut.toUpperCase());
+      $('#toGenerate').text($('#msg').val());
   });
 
 

@@ -13,7 +13,8 @@ form {
 }
 
 textarea {
-	min-width:30%;
+	min-width:300px;
+	min-height: 100px;
 }
 
 footer {
@@ -42,6 +43,7 @@ footer {
 .generated span {
 	position:absolute;
 	text-align: center;
+	text-transform: uppercase;
 	top: 50%;
 	left: 50%;
 	margin-top: -80px; /* that's buillshit */
